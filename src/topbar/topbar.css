@@ -8,7 +8,7 @@
     justify-content: space-around; /* Distribute content horizontally with even spaces */
     align-items: center; /* Align content vertically */
     font-family: "Josefin Sans", sans-serif;
-    
+    z-index: 15;
 }
 
   
