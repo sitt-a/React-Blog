@@ -1,0 +1,51 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: sticky;
+    top: 0;
+    display: flex; /* Make the top bar a flex container */
+    justify-content: space-around; /* Distribute content horizontally with even spaces */
+    align-items: center; /* Align content vertically */
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+  
+  .top-icons,
+  .top-links,
+  .top-search {
+    display: flex;
+    align-items: center;
+    
+    /* Align icons/links/search icon vertically within their sections */
+  }
+  
+  .topicon {
+    font-size: 20px;
+    margin-right: 10px; /* Add space between icons */
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .toplist {
+    display: flex;
+    /* No justification needed since content is already centered horizontally */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .toplistitem {
+    margin-right: 20px; /* Add space between list items */
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .topsearchicon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+  
